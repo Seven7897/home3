@@ -1,0 +1,103 @@
+body html {
+  background-color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+
+header .container {
+  margin: 40px auto 84px auto;
+  width: 1200px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo {
+  width: 137px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .logo img {
+  width: 35px;
+}
+header .container .logo .name {
+  color: #000000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  line-height: 100%;
+  width: 88px;
+}
+header .container .logo .name span {
+  color: #f25822;
+}
+header .container .link {
+  color: black;
+  height: 17px;
+  width: 533px;
+  font-family: Mixed;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+header .container .link a {
+  color: black;
+}
+header .container .link :nth-child(1) {
+  color: #f25822;
+}
+.top {
+  margin-bottom: 162px;
+}
+.top .container {
+  margin: 0 auto;
+  width: 1200px;
+  height: 522px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.top .container .topLeft .title {
+  color: #000000;
+  font-family: Gilroy-Bold;
+  font-weight: 1000;
+  font-size: 60px;
+  line-height: 100%;
+}
+.top .container .topLeft .subTitle {
+  margin-top: 17px;
+  color: #888888;
+  font-family: Gilroy-Medium;
+  font-size: 20px;
+  line-height: 100%;
+}
+.top .container .topLeft .clickMeta {
+  margin-top: 37px;
+}
+.top .container .topLeft .clickMeta button {
+  color: #ffffff;
+  width: 140px;
+  height: 50px;
+  margin-right: 72px;
+  background-color: #f25822;
+  border-radius: 25px;
+  border-color: #f25822;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 100%;
+}
+.top .container .topLeft .clickMeta a {
+  color: #aaaaaa;
+  font-family: Gilroy-Bold;
+  font-size: 15px;
+  line-height: 100%;
+}
+
+.brand .container {
+  margin: 100px auto 100px auto;
+  height: 50px;
+  width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
