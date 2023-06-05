@@ -82,10 +82,15 @@ header .container .link :nth-child(1) {
   margin-right: 72px;
   background-color: #f25822;
   border-radius: 25px;
-  border-color: #f25822;
+  border: 0;
   font-family: Gilroy-Bold;
   font-size: 15px;
   line-height: 100%;
+  cursor: pointer;
+}
+.top .container .topLeft .clickMeta button:hover {
+  color: #f25822;
+  background-color: #9b9797;
 }
 .top .container .topLeft .clickMeta a {
   color: #aaaaaa;
