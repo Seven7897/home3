@@ -106,3 +106,107 @@ header .container .link :nth-child(1) {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.features {
+  margin-top: 200px;
+  height: 490px;
+}
+.features .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.features .container .flexContainer {
+  height: 281px;
+  width: 381px;
+}
+.features .container .flexContainer .icon {
+  width: 70px;
+}
+.features .container .flexContainer .title {
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 17px;
+  font-weight: 600;
+}
+.features .container .flexContainer .text {
+  font-style: 15px;
+  color: #666666;
+}
+.features .container .flexContainer button {
+  margin-top: 25px;
+  font-size: 11px;
+  font-weight: 600;
+  background-color: #ffffff;
+  border: 0;
+}
+.services {
+  height: 919px;
+}
+.services .container {
+}
+.services .container .secationTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 92px;
+  margin-bottom: 54px;
+  height: 123px;
+  width: 682px;
+}
+.services .container .secationTitle .title {
+  font-size: 45px;
+}
+.services .container .secationTitle .text {
+  font-size: 16px;
+  color: #666666;
+  text-align: center;
+}
+.services .container .servicesContainer {
+  margin: 0 auto;
+  width: 1140px;
+  height: 616px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .container .servicesContainer .cards {
+  text-align: center;
+  width: 370px;
+  height: 550px;
+}
+.services .container .servicesContainer .cards .image {
+  height: 290px;
+  width: 385px;
+}
+.services .container .servicesContainer .cards .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+.services .container .servicesContainer .cards .text {
+  margin-top: 22px;
+  margin-bottom: 39px;
+  font-size: 15px;
+  color: #aaaaaa;
+}
+.services .container .servicesContainer .cards button {
+  font-size: 13px;
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  color: #ffffff;
+  background-color: #f25822;
+  border: 0;
+  cursor: pointer;
+}
+.services .container .servicesContainer .cards button:hover {
+  background-color: #797776;
+  color: #f25822;
+}
+.services .container .servicesContainer .cards button img {
+  width: 5px;
+  height: 10px;
+}
